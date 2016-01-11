@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AcE-um-g5X">
+                                <rect key="frame" x="20" y="463" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="0mu-YJ-ZMq"/>
+                                    <constraint firstAttribute="height" constant="50" id="II7-Fm-86B"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="anniu"/>
+                                <connections>
+                                    <action selector="btnDidClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="U5D-UX-ROZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8TN-EP-dwF">
+                                <rect key="frame" x="168" y="244" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="73U-wv-RDT"/>
+                                    <constraint firstAttribute="width" constant="50" id="fjE-J5-ASY"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="car"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="93y-aI-ZdP">
+                                <rect key="frame" x="162" y="43" width="50" height="50"/>
+                                <state key="normal" title="Button" image="anniu"/>
+                                <connections>
+                                    <action selector="btnDidClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Bc6-2w-3lr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CqU-xN-XLv">
+                                <rect key="frame" x="26" y="244" width="50" height="50"/>
+                                <state key="normal" title="Button" image="anniu"/>
+                                <connections>
+                                    <action selector="btnDidClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="A8a-KC-EDF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IEL-GT-LhA">
+                                <rect key="frame" x="325" y="235" width="50" height="50"/>
+                                <state key="normal" title="Button" image="anniu"/>
+                                <connections>
+                                    <action selector="btnDidClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZM9-Nj-m1O"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ozC-pG-FYy">
+                                <rect key="frame" x="234" y="463" width="50" height="50"/>
+                                <state key="normal" title="Button" image="anniu"/>
+                                <connections>
+                                    <action selector="btnDidClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GAY-dt-Qkk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0oR-VG-Pdw">
+                                <rect key="frame" x="26" y="43" width="50" height="50"/>
+                                <state key="normal" title="Button" image="anniu"/>
+                                <connections>
+                                    <action selector="btnDidClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PKk-dP-pkL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4VT-2F-7Di">
+                                <rect key="frame" x="311" y="34" width="50" height="50"/>
+                                <state key="normal" title="Button" image="anniu"/>
+                                <connections>
+                                    <action selector="btnDidClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lgW-Zl-PqA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MIP-UQ-gZK">
+                                <rect key="frame" x="132" y="463" width="50" height="50"/>
+                                <state key="normal" title="Button" image="anniu"/>
+                                <connections>
+                                    <action selector="btnDidClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3xd-cS-e1C"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zyZ-cF-eDW">
+                                <rect key="frame" x="325" y="463" width="50" height="50"/>
+                                <state key="normal" title="Button" image="anniu"/>
+                                <connections>
+                                    <action selector="btnDidClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6ju-1p-4pp"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="8TN-EP-dwF" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="224" id="5cy-1J-OVx"/>
+                            <constraint firstItem="AcE-um-g5X" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="8Du-bi-msD"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="8TN-EP-dwF" secondAttribute="trailing" constant="137" id="dNE-Qe-OHh"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="AcE-um-g5X" secondAttribute="bottom" constant="154" id="gPy-x6-zSr"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="Gold1" destination="93y-aI-ZdP" id="u0b-6b-7HF"/>
+                        <outlet property="Gold2" destination="0oR-VG-Pdw" id="8va-M5-ofW"/>
+                        <outlet property="Gold3" destination="4VT-2F-7Di" id="bxF-Ve-SRC"/>
+                        <outlet property="Gold4" destination="CqU-xN-XLv" id="Jn3-Xl-qh1"/>
+                        <outlet property="Gold5" destination="MIP-UQ-gZK" id="ajO-Bs-enm"/>
+                        <outlet property="Gold6" destination="AcE-um-g5X" id="i4N-sc-KlP"/>
+                        <outlet property="Gold7" destination="IEL-GT-LhA" id="sra-1o-NP0"/>
+                        <outlet property="Gold8" destination="ozC-pG-FYy" id="qEb-Hx-Z2N"/>
+                        <outlet property="Gold9" destination="zyZ-cF-eDW" id="lCD-xd-mlE"/>
+                        <outlet property="shoppingCar" destination="8TN-EP-dwF" id="tuz-QQ-k9h"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="351.5" y="434.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="anniu" width="512" height="512"/>
+        <image name="car" width="256" height="256"/>
+    </resources>
+</document>
